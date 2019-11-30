@@ -23,7 +23,7 @@
     <property name="driverClassName"
       value="${db.driverClassName:com.mysql.jdbc.Driver}" />
     <property name="url"
-      value="${db.url:jdbc:mysql://localhost/authentication_server_db?useSSL=true}" />
+      value="${db.url:jdbc:mysql://139.9.134.24:3306/authentication_server_db?useSSL=true}" />
     <property name="username" value="${db.username:root}" />
     <property name="password" value="${db.password:}" />
   </bean>
